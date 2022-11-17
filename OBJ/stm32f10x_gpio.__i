@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER
+-I C:\Users\TR\Desktop\µ×²ã¿â\LED\USER\RTE
+-I D:\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I D:\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10x_HD
+-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d "stm32f10x_gpio.c"
